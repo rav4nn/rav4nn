@@ -1,4 +1,3 @@
-[README (1).md](https://github.com/user-attachments/files/26240941/README.1.md)
 # Hardeep Singh
 
 Chemical Engineer (IIT Delhi) turned AI builder. I ship things.
