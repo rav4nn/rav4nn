@@ -1,63 +1,44 @@
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,100:6e40c9&height=200&section=header&text=Hardeep%20Singh&fontSize=50&fontColor=ffffff&fontAlignY=38&desc=Python%20%7C%20AI%2FML%20%7C%20Building%20Daily&descAlignY=58&descSize=20" />
-</p>
+[README (1).md](https://github.com/user-attachments/files/26240941/README.1.md)
+# Hardeep Singh
 
-<p align="center">
-  <a href="https://x.com/rav4nn"><img src="https://img.shields.io/badge/X-@rav4nn-000000?style=for-the-badge&logo=x&logoColor=white" /></a>
-  <a href="mailto:hardeepsindia@gmail.com"><img src="https://img.shields.io/badge/Gmail-hardeepsindia@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
-  <img src="https://img.shields.io/badge/Location-New%20Delhi%20🇮🇳-orange?style=for-the-badge" />
-</p>
+Chemical Engineer (IIT Delhi) turned AI builder. I ship things.
 
 ---
 
-### 👋 Hey, I'm Hardeep!
+## what I'm building
 
-Developer from New Delhi passionate about building practical AI applications. I ship projects daily and love exploring the cutting edge of LLMs, RAG systems, and agentic workflows. If it involves Python and AI, I'm probably already building it.
+**[coffeecoach.app](https://coffeecoach.app)** — [coffee-coach](https://github.com/rav4nn/coffee-coach)  
+A specialty coffee brewing companion. Log brews, get coaching from Kapi (an AI coach), dial in your technique. 3,000+ bean catalog with freshness tracking, a two-layer coaching system (recipe-diff for beginners → sensory coaching from cup ratings and flavor notes), and a full brew journal. 150+ commits in. Live.  
+`Next.js 15` `React 19` `FastAPI` `PostgreSQL` `Vercel + Hetzner` `Docker`
 
-- 🌱 Currently diving deep into **Agentic Workflows** and **RAG systems**
-- 🚀 I believe in learning by shipping — daily
-- 💬 Ask me about **LLMs, FAISS, conversational AI, or Flask**
-- 📫 Reach me at **hardeepsindia@gmail.com**
+**[FluxRAG](https://github.com/rav4nn/flux-rag)** — universal ingestion-to-evaluation RAG pipeline  
+Built as the RAG backend for Coffee Coach — but designed to be domain-agnostic. Drop in any file type (PDF, YouTube URL, audio, images, HTML) and get a benchmarked knowledge base with documented quality scores. The key idea: build the evaluation harness first, then optimise against it. Every chunking strategy, embedding model, reranker, and LLM is benchmarked on the same QA test set before anything ships.  
+`Python` `RAGAS` `ChromaDB` `Qdrant` `FastAPI` `Docker` `spaCy` `sentence-transformers`
 
----
+**[youtube-rag-scraper](https://github.com/rav4nn/youtube-rag-scraper)** ⭐ 31  
+Production-grade CLI: YouTube channel → transcripts → FAISS vector index → semantic search. Parallel downloads, resume support, multi-format export (JSON/JSONL/CSV/Parquet). Built to index specialty coffee content; now used by others building domain-specific knowledge bases.  
+`Python` `FAISS` `sentence-transformers` `yt-dlp` `YouTube Data API`
 
-### 🛠️ Tech Stack
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white" />
-  <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white" />
-  <img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white" />
-  <img src="https://img.shields.io/badge/FAISS-0073e6?style=for-the-badge&logo=meta&logoColor=white" />
-  <img src="https://img.shields.io/badge/RAG-FF6B6B?style=for-the-badge&logo=bookstack&logoColor=white" />
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
-  <img src="https://img.shields.io/badge/WhatsApp%20API-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
-</p>
+**[grandma-proof](https://github.com/rav4nn/grandma-proof)**  
+An AI agent that browses your site as a confused first-time user, then produces a structured UX report: confusion points, drop-off risk scores, actionable recommendations. Multi-provider LLM support (OpenAI, Gemini, DeepSeek) via a FastAPI + Playwright backend.  
+`Python` `FastAPI` `Playwright` `OpenAI / Gemini / DeepSeek`
 
 ---
 
-### 🚀 Featured Projects
+## what I care about
 
-| Project | Description | Stars |
-|---|---|---|
-| 🎬 [youtube-rag-scraper](https://github.com/rav4nn/youtube-rag-scraper) | Scrape YouTube videos, extract transcripts & build a semantic search knowledge base using RAG + FAISS | ⭐ 42 |
-| 🧓 [grandma-proof](https://github.com/rav4nn/grandma-proof) | AI-powered UX testing that simulates a confused first-time user — catch UX issues before real users do | |
-| ☕ [what-coffee](https://github.com/rav4nn/what-coffee) | AI chatbot that learns your coffee preferences and recommends specialty brews | |
-| 💸 [splitwala](https://github.com/rav4nn/splitwala) | WhatsApp bot for splitting expenses, built with Python + Flask + WhatsApp Business Cloud API | |
+RAG pipelines that actually get evaluated before shipping. AI products built around real domain data, not demos. Full-stack ownership — frontend, backend, infra, and the AI layer.
 
 ---
 
-### 📊 GitHub Stats
+## stack
 
-<p align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=rav4nn&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" />
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=rav4nn&layout=compact&theme=tokyonight&hide_border=true" />
-</p>
+`Python` `FastAPI` `Next.js` `TypeScript` `PostgreSQL` `Docker`  
+`RAG / FAISS / ChromaDB / Qdrant` `sentence-transformers` `RAGAS`  
+`LLM APIs` `Nginx` `Hetzner` `Vercel` `Cloudflare`
 
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=rav4nn&theme=tokyonight&hide_border=true" />
-</p>
+---
 
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:6e40c9,100:0d1117&height=100&section=footer" />
-</p>
+## open to
+
+AI/ML engineering roles at early-stage startups in India. Small, fast-moving teams building real products.
