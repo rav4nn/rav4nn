@@ -1,6 +1,6 @@
 # Hardeep Singh
 
-Chemical Engineer (IIT Delhi) turned AI builder. I ship things.
+AI Builder from IIT Delhi. I ship things.
 
 ---
 
