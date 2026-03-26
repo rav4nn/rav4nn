@@ -14,7 +14,7 @@ A specialty coffee brewing companion. Log brews, get coaching from Kapi (an AI c
 Built as the RAG backend for Coffee Coach — but designed to be domain-agnostic. Drop in any file type (PDF, YouTube URL, audio, images, HTML) and get a benchmarked knowledge base with documented quality scores. The key idea: build the evaluation harness first, then optimise against it. Every chunking strategy, embedding model, reranker, and LLM is benchmarked on the same QA test set before anything ships.  
 `Python` `RAGAS` `ChromaDB` `Qdrant` `FastAPI` `Docker` `spaCy` `sentence-transformers`
 
-**[youtube-rag-scraper](https://github.com/rav4nn/youtube-rag-scraper)** ⭐ 31  
+**[youtube-rag-scraper](https://github.com/rav4nn/youtube-rag-scraper)** ⭐ 44  
 Production-grade CLI: YouTube channel → transcripts → FAISS vector index → semantic search. Parallel downloads, resume support, multi-format export (JSON/JSONL/CSV/Parquet). Built to index specialty coffee content; now used by others building domain-specific knowledge bases.  
 `Python` `FAISS` `sentence-transformers` `yt-dlp` `YouTube Data API`
 
