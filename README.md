@@ -8,9 +8,6 @@ AI engineer · IIT Delhi · building products from messy real-world data
 
 ## building
 
-**[grandma-proof](https://github.com/rav4nn/grandma-proof)** — AI agent that browses your site as a confused first-time user and produces a structured UX report: confusion points, drop-off risks, actionable fixes. Multi-provider LLM support via FastAPI + Playwright.
-`Python` `FastAPI` `Playwright` `OpenAI / Gemini / DeepSeek`
-
 **[coffeecoach.app](https://coffeecoach.app)** — Full-stack AI coaching app. Two-layer agentic coaching system (recipe-diff → sensory coaching from cup ratings), 3,000+ bean catalog, brew journal. 65 daily active users, zero paid promotion.
 `Next.js 15` `FastAPI` `PostgreSQL` `Docker` `Vercel + Hetzner`
 
@@ -19,6 +16,9 @@ AI engineer · IIT Delhi · building products from messy real-world data
 
 **[youtube-rag-scraper](https://github.com/rav4nn/youtube-rag-scraper)** ⭐ 62 — YouTube channel → FAISS vector index → semantic search. Parallel downloads, resume support, multi-format export.
 `Python` `FAISS` `sentence-transformers` `yt-dlp`
+
+**[grandma-proof](https://github.com/rav4nn/grandma-proof)** — AI agent that browses your site as a confused first-time user and produces a structured UX report: confusion points, drop-off risks, actionable fixes. Multi-provider LLM support via FastAPI + Playwright.
+`Python` `FastAPI` `Playwright` `OpenAI / Gemini / DeepSeek`
 
 ---
 
