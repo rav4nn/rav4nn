@@ -1,6 +1,6 @@
 # Hardeep Singh
 
-AI engineer. IIT Delhi → building AI products that people use.
+AI engineer · IIT Delhi · building products from messy real-world data
 
 [hardeep.cv](https://hardeep.cv) · [LinkedIn](https://linkedin.com/in/hardeep-singh-a29a14349) · [X](https://x.com/rav4nn)
 
